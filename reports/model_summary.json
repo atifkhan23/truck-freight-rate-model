@@ -1,0 +1,33 @@
+{
+  "cleaning": {
+    "rows_in": 48000,
+    "negative_weight": 292,
+    "missing_weight": 300,
+    "missing_market_index": 374,
+    "rate_per_mile_outliers": 599,
+    "residual_outliers": 75,
+    "rows_used": 47326
+  },
+  "day_level_coefficients": {
+    "intercept": -0.12943,
+    "market_index": 0.09699,
+    "months_elapsed": 0.00388,
+    "quarter_end": 0.0019,
+    "month_progress": 0.00149,
+    "quarter_end_x_progress": 0.0224
+  },
+  "validation_prediction_stats": {
+    "count": 12000.0,
+    "mean": 2377.58,
+    "std": 1377.85,
+    "min": 196.21,
+    "25%": 1276.13,
+    "50%": 2048.88,
+    "75%": 3388.36,
+    "max": 6797.31
+  },
+  "december_range_$": [
+    804.55,
+    842.73
+  ]
+}
